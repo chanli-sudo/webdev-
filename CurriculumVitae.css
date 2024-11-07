@@ -18,15 +18,27 @@ body{
 }
 
 #Profile1 {
-    background-image: url(chromatic background.jpeg);
+    background-image: url(url(Black Textured Wallpaper.jfif));
+    width: 30%;
 }
 
-.homeimg {
-    width: 12px;
+#Profie2 {
+    float: right;
+}
+.icons {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 5px ;
 }
 .TwoByTwo {
-    width: 150px;
+    width: 200px;
     display: absolute;
-    margin: 25px 0px 0px 30px;
+    margin: 60px 0px 0px 50px;
 
+}
+#Contact, #TechSkills, #Languages {
+    color: white;
+    margin: 50px;
+    font-size: 18px;
 }
