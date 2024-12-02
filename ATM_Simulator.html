@@ -5,14 +5,14 @@
         <script src="ATM_Simulator.js"></script>
     </head>
  <body>
-
     <div id="container">
         <h1>Citizen Banking</h1>
-       <p>You're current balance is </p>    
-            <button onclick="myFunction()">Withdraw</button>
-            <button onclick="myFunction()">Deposit</button>
-            <button onclick="myFunction()">Check Balance</button>
-            <button onclick="myFunction()">Exit</button>
-    </div>
+       <p>You're current balance is </p>  
+       <p id="balance"> ₱5000</p>  
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="check()" class="button">Check Balance</button>
+            <button onclick="exit()">Exit</button>
+    </div>  
 </body>
 </html>
